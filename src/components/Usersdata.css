@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.users-card {
+  width: 23.1%;
+  border: 1px solid rgb(223, 221, 221);
+  background-color: rgb(250, 248, 248);
+}
+.users-img {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(250, 248, 248);
+}
+.img-main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(239, 235, 235);
+}
+.circle {
+  padding-top: 10px;
+  background-color: rgb(239, 235, 235);
+}
+.img-circle {
+  background: rgb(134, 135, 136);
+  border-radius: 70%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.img-rect {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.rect h3 a{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(134, 135, 136);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.img-rect h4{
+  color: red;
+}
+.img-rect a{
+  color: black;
+  font-size: x-small;
+}
+.users-data {
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.users-icons{
+  display: flex;
+  justify-items: center;
+  margin-top: 10px;
+}
+.user-action {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  background-color: rgb(250, 248, 248);
+  justify-content: space-around;
+}
+.user-action span {
+  cursor: pointer;
+}
+@media screen and (max-width:850px) {
+  .container{
+   flex-direction: column;
+   place-items: center;
+  }
+}
+@media screen and (max-width:850px) {
+  .container{
+   flex-direction: column;
+   place-items: center;
+  }
+}
+@media screen and (max-width:750px) {
+  .container{
+   flex-direction: column;
+   place-items: center;
+  }
+}
+@media screen and (max-width:900px) {
+  .users-card{
+      width: 60%;
+      place-items: center;
+  }
+}@media screen and (max-width:700px) {
+  .users-card{
+      width: 80%;
+     place-items: center;
+  }
+}@media screen and (max-width:500px) {
+  .users-card{
+      width: 100%;
+      place-items: center;
+  }
+}

@@ -1,0 +1,112 @@
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.modal {
+  border-radius: 10px;
+  background-color: white;
+  width: 40%;
+}
+.modal-header {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(197, 195, 195);
+}
+.modal-close {
+  cursor: pointer;
+  color: rgb(54, 53, 53);
+}
+.modal-close:hover {
+  color: black;
+}
+.modal-main {
+  padding: 25px 50px;
+}
+.form {
+  width: 100%;
+}
+.form-field {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+}
+.form-field > label {
+  width: 30%;
+}
+.form-field>input{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 8px;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 5px;
+  width: 70%;
+}
+.form-field>input:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  /* padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px; */
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.form-field > input:hover {
+  border-color: rgb(99, 160, 235);
+}
+.form-field > input[type=text]:focus {
+
+  border-color: rgb(99, 160, 235);
+}
+.star {
+  color: red;
+}
+.btn-submit {
+  padding: 8px;
+  width: 8%;
+  cursor: pointer;
+  border: 0.5px solid rgb(170, 168, 168);
+  border-radius: 5px;
+  border-color: rgb(107, 131, 235);
+  background-color: rgb(107, 131, 235);
+  color: white;
+}
+.btn-submit:hover {
+  background-color: rgb(104, 127, 226);
+  border-color: rgb(104, 127, 226);
+
+}
+
+.btn-cancel {
+  padding: 8px;
+  width: 10%;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
+}
+.btn-cancel:hover {
+  border-color: rgb(133, 206, 230);
+  color: rgb(133, 206, 230);
+}
+.close {
+  cursor: pointer;
+}
+
+.modal-content {
+  margin-bottom: 2rem;
+}
+
+.modal-footer {
+  border-top: 1px solid rgb(197, 195, 195);
+  padding: 10px;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
